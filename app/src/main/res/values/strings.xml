@@ -4,4 +4,8 @@
     <string name="input_hint">Who are you?</string>
     <string name="input_error">Please tell me your name</string>
     <string name="submit">Submit</string>
+    <string name="name_pattern">^\\p{L}+[\\p{L}\\p{Z}\\p{P}]{0,}</string>
+    <string name="error_message">This is not a valid name</string>
+    <string name="greeting_start">"Hello, "</string>
+    <string name="greeting_end">!</string>
 </resources>
