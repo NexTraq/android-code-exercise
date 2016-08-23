@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Candidate Code Exercise</string>
+    <string name="hello">Hello, %s!</string>
+    <string name="input_hint">Who are you?</string>
+    <string name="input_error">Please tell me your name</string>
+    <string name="submit">Submit</string>
+    <string name="name_invalid">Name must be entered or name is invalid</string>
+</resources>
