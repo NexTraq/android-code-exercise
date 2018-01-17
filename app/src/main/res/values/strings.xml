@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Candidate Code Exercise</string>
+    <string name="app_name">Android Candidate McBath Code Quiz</string>
     <string name="hello">Hello, %s!</string>
     <string name="input_hint">Who are you?</string>
     <string name="input_error">Please tell me your name</string>
