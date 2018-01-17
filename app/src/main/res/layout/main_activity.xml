@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
+
+<RelativeLayout
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <RelativeLayout
+    <EditText
+        android:id="@+id/name_input"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/input_hint"/>
 
-        <EditText
-            android:id="@+id/name_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="@string/input_hint"/>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/name_input"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit"/>
 
-        <Button
-            android:id="@+id/submit_button"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_below="@+id/name_input"
-            android:layout_centerHorizontal="true"
-            android:text="@string/submit"/>
+    <TextView
+        android:id="@+id/personalized_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/submit_button"
+        tools:text="Hello, Brad!" />
 
-        <TextView
-            android:id="@+id/personalized_greeting"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_below="@+id/submit_button"
-            tools:text="Hello, Brad!" />
-
-    </RelativeLayout>
-</layout>
+</RelativeLayout>
 
